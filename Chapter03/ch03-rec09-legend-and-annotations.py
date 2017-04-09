@@ -11,7 +11,7 @@ plot(x2, label='2nd plot')
 plot(x3, label='last plot')
 
 # generate a legend box
-legend(bbox_to_anchor=(0., 1.02, 1., .102), loc=0,
+legend(bbox_to_anchor=(0., 1.02, 1., .102), loc=6,
        ncol=3, mode="expand", borderaxespad=0.)
 
 # annotate an important value

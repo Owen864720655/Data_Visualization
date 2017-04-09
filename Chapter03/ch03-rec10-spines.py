@@ -19,5 +19,6 @@ ax.spines['left'].set_position(('data',0))
 # move ticks positions
 ax.xaxis.set_ticks_position('bottom')
 ax.yaxis.set_ticks_position('left')
-
+ax.xaxis.set_smart_bounds(True)
+ax.yaxis.set_smart_bounds(True)
 plt.show()

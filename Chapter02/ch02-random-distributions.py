@@ -3,7 +3,7 @@ import random
 import matplotlib
 import matplotlib.pyplot as plt
 
-SAMPLE_SIZE = 1000
+SAMPLE_SIZE = 10000
 
 # histogram buckets
 buckets = 100

@@ -33,6 +33,6 @@ ax.xaxis.set_major_formatter(date_format)
 # rotates labels by 30 degrees by default
 # use rotate param to specify different rotation degree 
 # use bottom param to give more room to date labels
-fig.autofmt_xdate()
+fig.autofmt_xdate(rotation = 90, bottom = .2)
 
 show()
